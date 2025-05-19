@@ -1,4 +1,4 @@
-# Real-Time Weather Monitoring System with Apache Kafka
+# Getting Started with Apache Kafka: A Hands-on Guide Through a Weather Monitoring System
 
 <img src="docs/images/weather-system-kafka-architecture.png" alt="Diagram of the Real-Time Weather Monitoring System: Weather Station icons send data to a Kafka Cluster, which contains a 'weather_data' topic. This data is then read by a Data Processor and an Analytics Dashboard." width="500">
 
