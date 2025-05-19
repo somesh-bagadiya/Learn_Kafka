@@ -47,7 +47,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+# *.log
 local_settings.py
 db.sqlite3
 
@@ -108,9 +108,9 @@ dmypy.json
 docker-compose.override.yml
 docker-compose.override.yaml
 
-# Logs
-logs/
-*.log
+# # Logs
+# logs/
+# *.log
 
 # Kafka
 kafka-logs/

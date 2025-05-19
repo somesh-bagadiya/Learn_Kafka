@@ -1,0 +1,295 @@
+2025-05-18 19:34:55,042 - weather_analytics - INFO - --- Weather Analytics Started ---
+2025-05-18 19:34:55,059 - weather_analytics - INFO - Analytics Consumer for topic 'weather_data' created successfully.
+2025-05-18 19:34:55,069 - weather_analytics - INFO - Analytics Producer created successfully.
+2025-05-18 19:34:55,069 - weather_analytics - INFO - Starting weather analytics: Consuming from 'weather_data', Producing to 'weather_alerts'. Press Ctrl+C to stop.
+2025-05-18 19:35:07,209 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 60,
+    "timestamp_ms": 1747622107203,
+    "datetime_utc": "2025-05-19T02:35:07.203000+00:00",
+    "key": "station_alpha",
+    "value": {
+        "station_id": "station_alpha",
+        "timestamp": "2025-05-19T02:35:07.189875+00:00",
+        "temperature": 13.3,
+        "humidity": 87.8,
+        "wind_speed": 41.5
+    }
+}
+2025-05-18 19:35:07,213 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 61,
+    "timestamp_ms": 1747622107205,
+    "datetime_utc": "2025-05-19T02:35:07.205000+00:00",
+    "key": "station_bravo",
+    "value": {
+        "station_id": "station_bravo",
+        "timestamp": "2025-05-19T02:35:07.203883+00:00",
+        "temperature": 21.5,
+        "humidity": 86.7,
+        "wind_speed": 18.3
+    }
+}
+2025-05-18 19:35:07,217 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 62,
+    "timestamp_ms": 1747622107210,
+    "datetime_utc": "2025-05-19T02:35:07.210000+00:00",
+    "key": "station_charlie",
+    "value": {
+        "station_id": "station_charlie",
+        "timestamp": "2025-05-19T02:35:07.206882+00:00",
+        "temperature": 7.2,
+        "humidity": 43.0,
+        "wind_speed": 26.6
+    }
+}
+2025-05-18 19:35:08,634 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 63,
+    "timestamp_ms": 1747622108628,
+    "datetime_utc": "2025-05-19T02:35:08.628000+00:00",
+    "key": "station_alpha",
+    "value": {
+        "station_id": "station_alpha",
+        "timestamp": "2025-05-19T02:35:08.628310+00:00",
+        "temperature": 22.5,
+        "humidity": 65.5,
+        "wind_speed": 57.2
+    }
+}
+2025-05-18 19:35:08,635 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 64,
+    "timestamp_ms": 1747622108628,
+    "datetime_utc": "2025-05-19T02:35:08.628000+00:00",
+    "key": "station_bravo",
+    "value": {
+        "station_id": "station_bravo",
+        "timestamp": "2025-05-19T02:35:08.628310+00:00",
+        "temperature": 12.1,
+        "humidity": 31.9,
+        "wind_speed": 8.6
+    }
+}
+2025-05-18 19:35:08,638 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 65,
+    "timestamp_ms": 1747622108630,
+    "datetime_utc": "2025-05-19T02:35:08.630000+00:00",
+    "key": "station_charlie",
+    "value": {
+        "station_id": "station_charlie",
+        "timestamp": "2025-05-19T02:35:08.628310+00:00",
+        "temperature": 8.7,
+        "humidity": 75.4,
+        "wind_speed": 50.1
+    }
+}
+2025-05-18 19:35:10,144 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 66,
+    "timestamp_ms": 1747622110139,
+    "datetime_utc": "2025-05-19T02:35:10.139000+00:00",
+    "key": "station_alpha",
+    "value": {
+        "station_id": "station_alpha",
+        "timestamp": "2025-05-19T02:35:10.139660+00:00",
+        "temperature": 1.5,
+        "humidity": 29.1,
+        "wind_speed": 51.9
+    }
+}
+2025-05-18 19:35:10,147 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 67,
+    "timestamp_ms": 1747622110141,
+    "datetime_utc": "2025-05-19T02:35:10.141000+00:00",
+    "key": "station_bravo",
+    "value": {
+        "station_id": "station_bravo",
+        "timestamp": "2025-05-19T02:35:10.140162+00:00",
+        "temperature": 4.8,
+        "humidity": 79.0,
+        "wind_speed": 57.3
+    }
+}
+2025-05-18 19:35:10,147 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 68,
+    "timestamp_ms": 1747622110142,
+    "datetime_utc": "2025-05-19T02:35:10.142000+00:00",
+    "key": "station_charlie",
+    "value": {
+        "station_id": "station_charlie",
+        "timestamp": "2025-05-19T02:35:10.141189+00:00",
+        "temperature": 9.2,
+        "humidity": 28.6,
+        "wind_speed": 66.1
+    }
+}
+2025-05-18 19:35:11,962 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 69,
+    "timestamp_ms": 1747622111958,
+    "datetime_utc": "2025-05-19T02:35:11.958000+00:00",
+    "key": "station_alpha",
+    "value": {
+        "station_id": "station_alpha",
+        "timestamp": "2025-05-19T02:35:11.958222+00:00",
+        "temperature": 0.1,
+        "humidity": 75.1,
+        "wind_speed": 65.6
+    }
+}
+2025-05-18 19:35:11,966 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 70,
+    "timestamp_ms": 1747622111959,
+    "datetime_utc": "2025-05-19T02:35:11.959000+00:00",
+    "key": "station_bravo",
+    "value": {
+        "station_id": "station_bravo",
+        "timestamp": "2025-05-19T02:35:11.958222+00:00",
+        "temperature": 2.7,
+        "humidity": 59.6,
+        "wind_speed": 20.5
+    }
+}
+2025-05-18 19:35:11,966 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 71,
+    "timestamp_ms": 1747622111960,
+    "datetime_utc": "2025-05-19T02:35:11.960000+00:00",
+    "key": "station_charlie",
+    "value": {
+        "station_id": "station_charlie",
+        "timestamp": "2025-05-19T02:35:11.960252+00:00",
+        "temperature": -4.0,
+        "humidity": 90.1,
+        "wind_speed": 51.9
+    }
+}
+2025-05-18 19:35:11,966 - weather_analytics - INFO - Alert condition met. Generated alert:
+{
+    "alert_id": "alert_7475e229_station_charlie",
+    "station_id": "station_charlie",
+    "alert_type": "Blizzard Condition Alert",
+    "triggering_timestamp": "2025-05-19T02:35:11.960252+00:00",
+    "temperature": -4.0,
+    "wind_speed": 51.9,
+    "processed_at": "2025-05-19T02:35:11.966338+00:00"
+}
+2025-05-18 19:35:11,967 - weather_analytics - INFO - Producing alert:
+{
+    "alert_id": "alert_7475e229_station_charlie",
+    "station_id": "station_charlie",
+    "alert_type": "Blizzard Condition Alert",
+    "triggering_timestamp": "2025-05-19T02:35:11.960252+00:00",
+    "temperature": -4.0,
+    "wind_speed": 51.9,
+    "processed_at": "2025-05-19T02:35:11.966338+00:00"
+}
+2025-05-18 19:35:11,977 - weather_analytics - INFO - Alert sent to topic 'weather_alerts', partition 0, offset 10
+2025-05-18 19:35:12,977 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 72,
+    "timestamp_ms": 1747622112972,
+    "datetime_utc": "2025-05-19T02:35:12.972000+00:00",
+    "key": "station_alpha",
+    "value": {
+        "station_id": "station_alpha",
+        "timestamp": "2025-05-19T02:35:12.972645+00:00",
+        "temperature": -4.8,
+        "humidity": 24.7,
+        "wind_speed": 69.4
+    }
+}
+2025-05-18 19:35:12,977 - weather_analytics - INFO - Alert condition met. Generated alert:
+{
+    "alert_id": "alert_77d52d7b_station_alpha",
+    "station_id": "station_alpha",
+    "alert_type": "Blizzard Condition Alert",
+    "triggering_timestamp": "2025-05-19T02:35:12.972645+00:00",
+    "temperature": -4.8,
+    "wind_speed": 69.4,
+    "processed_at": "2025-05-19T02:35:12.977180+00:00"
+}
+2025-05-18 19:35:12,978 - weather_analytics - INFO - Producing alert:
+{
+    "alert_id": "alert_77d52d7b_station_alpha",
+    "station_id": "station_alpha",
+    "alert_type": "Blizzard Condition Alert",
+    "triggering_timestamp": "2025-05-19T02:35:12.972645+00:00",
+    "temperature": -4.8,
+    "wind_speed": 69.4,
+    "processed_at": "2025-05-19T02:35:12.977180+00:00"
+}
+2025-05-18 19:35:12,978 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 73,
+    "timestamp_ms": 1747622112972,
+    "datetime_utc": "2025-05-19T02:35:12.972000+00:00",
+    "key": "station_bravo",
+    "value": {
+        "station_id": "station_bravo",
+        "timestamp": "2025-05-19T02:35:12.972645+00:00",
+        "temperature": 15.1,
+        "humidity": 51.5,
+        "wind_speed": 55.6
+    }
+}
+2025-05-18 19:35:12,979 - weather_analytics - INFO - Received raw weather data:
+{
+    "topic": "weather_data",
+    "partition": 0,
+    "offset": 74,
+    "timestamp_ms": 1747622112972,
+    "datetime_utc": "2025-05-19T02:35:12.972000+00:00",
+    "key": "station_charlie",
+    "value": {
+        "station_id": "station_charlie",
+        "timestamp": "2025-05-19T02:35:12.972645+00:00",
+        "temperature": 6.1,
+        "humidity": 28.3,
+        "wind_speed": 71.4
+    }
+}
+2025-05-18 19:35:12,981 - weather_analytics - INFO - Alert sent to topic 'weather_alerts', partition 0, offset 11
+2025-05-18 19:36:10,261 - weather_analytics - INFO - 
+Analytics interrupted by user (Ctrl+C).
+2025-05-18 19:36:10,261 - weather_analytics - INFO - Shutting down analytics...
+2025-05-18 19:36:10,261 - weather_analytics - INFO - Closing analytics consumer...
+2025-05-18 19:36:13,278 - weather_analytics - INFO - Analytics consumer closed.
+2025-05-18 19:36:13,279 - weather_analytics - INFO - Flushing and closing analytics producer...
+2025-05-18 19:36:13,280 - weather_analytics - INFO - Analytics producer closed.
+2025-05-18 19:36:13,280 - weather_analytics - INFO - Analytics shutdown complete.
+2025-05-18 19:36:13,281 - weather_analytics - INFO - --- Weather Analytics Finished ---

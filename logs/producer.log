@@ -1,0 +1,145 @@
+2025-05-18 19:34:52,169 - weather_producer - INFO - --- Weather Producer Started ---
+2025-05-18 19:34:52,188 - weather_producer - INFO - Kafka Producer created successfully.
+2025-05-18 19:34:52,188 - weather_producer - INFO - Producer instance created. Waiting 15 seconds for broker to initialize fully...
+2025-05-18 19:35:07,189 - weather_producer - INFO - Starting to produce messages to topic: weather_data on localhost:29092
+2025-05-18 19:35:07,189 - weather_producer - INFO - Will send 5 messages per station (if > 0), then exit. Press Ctrl+C to stop early.
+2025-05-18 19:35:07,189 - weather_producer - INFO - Generated data for station_alpha:
+{
+    "station_id": "station_alpha",
+    "timestamp": "2025-05-19T02:35:07.189875+00:00",
+    "temperature": 13.3,
+    "humidity": 87.8,
+    "wind_speed": 41.5
+}
+2025-05-18 19:35:07,204 - weather_producer - INFO - Generated data for station_bravo:
+{
+    "station_id": "station_bravo",
+    "timestamp": "2025-05-19T02:35:07.203883+00:00",
+    "temperature": 21.5,
+    "humidity": 86.7,
+    "wind_speed": 18.3
+}
+2025-05-18 19:35:07,206 - weather_producer - INFO - Generated data for station_charlie:
+{
+    "station_id": "station_charlie",
+    "timestamp": "2025-05-19T02:35:07.206882+00:00",
+    "temperature": 7.2,
+    "humidity": 43.0,
+    "wind_speed": 26.6
+}
+2025-05-18 19:35:07,210 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 60
+2025-05-18 19:35:07,211 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 61
+2025-05-18 19:35:07,213 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 62
+2025-05-18 19:35:08,628 - weather_producer - INFO - Generated data for station_alpha:
+{
+    "station_id": "station_alpha",
+    "timestamp": "2025-05-19T02:35:08.628310+00:00",
+    "temperature": 22.5,
+    "humidity": 65.5,
+    "wind_speed": 57.2
+}
+2025-05-18 19:35:08,628 - weather_producer - INFO - Generated data for station_bravo:
+{
+    "station_id": "station_bravo",
+    "timestamp": "2025-05-19T02:35:08.628310+00:00",
+    "temperature": 12.1,
+    "humidity": 31.9,
+    "wind_speed": 8.6
+}
+2025-05-18 19:35:08,628 - weather_producer - INFO - Generated data for station_charlie:
+{
+    "station_id": "station_charlie",
+    "timestamp": "2025-05-19T02:35:08.628310+00:00",
+    "temperature": 8.7,
+    "humidity": 75.4,
+    "wind_speed": 50.1
+}
+2025-05-18 19:35:08,633 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 63
+2025-05-18 19:35:08,633 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 64
+2025-05-18 19:35:08,634 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 65
+2025-05-18 19:35:10,139 - weather_producer - INFO - Generated data for station_alpha:
+{
+    "station_id": "station_alpha",
+    "timestamp": "2025-05-19T02:35:10.139660+00:00",
+    "temperature": 1.5,
+    "humidity": 29.1,
+    "wind_speed": 51.9
+}
+2025-05-18 19:35:10,140 - weather_producer - INFO - Generated data for station_bravo:
+{
+    "station_id": "station_bravo",
+    "timestamp": "2025-05-19T02:35:10.140162+00:00",
+    "temperature": 4.8,
+    "humidity": 79.0,
+    "wind_speed": 57.3
+}
+2025-05-18 19:35:10,141 - weather_producer - INFO - Generated data for station_charlie:
+{
+    "station_id": "station_charlie",
+    "timestamp": "2025-05-19T02:35:10.141189+00:00",
+    "temperature": 9.2,
+    "humidity": 28.6,
+    "wind_speed": 66.1
+}
+2025-05-18 19:35:10,143 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 66
+2025-05-18 19:35:10,144 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 67
+2025-05-18 19:35:10,145 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 68
+2025-05-18 19:35:11,958 - weather_producer - INFO - Generated data for station_alpha:
+{
+    "station_id": "station_alpha",
+    "timestamp": "2025-05-19T02:35:11.958222+00:00",
+    "temperature": 0.1,
+    "humidity": 75.1,
+    "wind_speed": 65.6
+}
+2025-05-18 19:35:11,958 - weather_producer - INFO - Generated data for station_bravo:
+{
+    "station_id": "station_bravo",
+    "timestamp": "2025-05-19T02:35:11.958222+00:00",
+    "temperature": 2.7,
+    "humidity": 59.6,
+    "wind_speed": 20.5
+}
+2025-05-18 19:35:11,960 - weather_producer - INFO - Generated data for station_charlie:
+{
+    "station_id": "station_charlie",
+    "timestamp": "2025-05-19T02:35:11.960252+00:00",
+    "temperature": -4.0,
+    "humidity": 90.1,
+    "wind_speed": 51.9
+}
+2025-05-18 19:35:11,962 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 69
+2025-05-18 19:35:11,963 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 70
+2025-05-18 19:35:11,964 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 71
+2025-05-18 19:35:12,972 - weather_producer - INFO - Generated data for station_alpha:
+{
+    "station_id": "station_alpha",
+    "timestamp": "2025-05-19T02:35:12.972645+00:00",
+    "temperature": -4.8,
+    "humidity": 24.7,
+    "wind_speed": 69.4
+}
+2025-05-18 19:35:12,972 - weather_producer - INFO - Generated data for station_bravo:
+{
+    "station_id": "station_bravo",
+    "timestamp": "2025-05-19T02:35:12.972645+00:00",
+    "temperature": 15.1,
+    "humidity": 51.5,
+    "wind_speed": 55.6
+}
+2025-05-18 19:35:12,972 - weather_producer - INFO - Generated data for station_charlie:
+{
+    "station_id": "station_charlie",
+    "timestamp": "2025-05-19T02:35:12.972645+00:00",
+    "temperature": 6.1,
+    "humidity": 28.3,
+    "wind_speed": 71.4
+}
+2025-05-18 19:35:12,976 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 72
+2025-05-18 19:35:12,976 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 73
+2025-05-18 19:35:12,976 - weather_producer - INFO - Message sent to topic 'weather_data', partition 0, offset 74
+2025-05-18 19:35:14,079 - weather_producer - INFO - All stations reached the message limit of 5. Exiting loop.
+2025-05-18 19:35:14,079 - weather_producer - INFO - Flushing remaining messages...
+2025-05-18 19:35:14,079 - weather_producer - INFO - Closing producer.
+2025-05-18 19:35:14,080 - weather_producer - INFO - Producer closed.
+2025-05-18 19:35:14,080 - weather_producer - INFO - --- Weather Producer Finished ---
